@@ -2,4 +2,4 @@
 
 By original developpers
 
-*©All right reserved, 2022, MacarofTv
+*©All right reserved, 2022, MacarofTv*
