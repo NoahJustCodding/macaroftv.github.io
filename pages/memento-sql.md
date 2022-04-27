@@ -1,6 +1,6 @@
 # Memento SQL
 
-### SQL Request
+### Most important SQL Syntax
 
 Syntax | Description
 --- | --- 
