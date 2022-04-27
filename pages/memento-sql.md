@@ -2,12 +2,17 @@
 
 ### SQL Request
 
-Expression | Description | Syntax
---- | --- | ---
-`SELECT` | Specifies the attributes that we want to extract | `SELECT Table.Attribut`
-`FROM` | Specifies the tables needed for the query | `FROM Table1, Table2`
-`;` | Indicates that the request is complete | `;`
-`WHERE` | Precedes the first join or selection | `WHERE Table.Attribut LIKE string`
-`AND` | Succeeds WERE whether for a selection or a join | `AND Table.Attribut = Value`
-`OR` | Precedes a selection | `OR Table.Attribut = Value`
+Syntax | Description
+--- | --- 
+`SELECT` | Extracts data from a database
+`UPDATE` | Updates data in a database
+`DELETE`| Deletes data from a database
+`INSERT INTO` | Inserts new data into a database
+`CREATE DATABASE` | Creates a new database
+`ALTER DATABASE` | Modifies a database
+`CREATE TABLE` | Creates a new table
+`ALTER TABLE` | Modifies a table
+`DROP TABLE` | Deletes a table
+`CREATE INDEX` | Creates an index (search key)
+`DROP INDEX` | Deletes an index
 
