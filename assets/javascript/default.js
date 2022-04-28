@@ -10,7 +10,7 @@ function myFunction() {
 jQuery(function(){
     $(function () {
         $(window).scroll(function () {
-            if ($(this).scrollTop() > 60 ) { 
+            if ($(this).scrollTop() > 40 ) { 
                 $('#scrollUp').css('right','10px');
             } else { 
                 $('#scrollUp').removeAttr( 'style' );
