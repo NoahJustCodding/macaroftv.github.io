@@ -1,4 +1,24 @@
 ---
 ---
 
+.progressionbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+  
+.progress-bar {
+    height: 8px;
+    background: #00c77e;
+    width: 0%;
+}
+
+#scrollUp {
+    position: fixed;
+    bottom : 10px;
+    right: -100px;
+    opacity: 0.5;
+}
+
 @import 'jekyll-theme-cayman';
