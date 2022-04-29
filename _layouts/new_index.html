@@ -23,6 +23,9 @@
   </head>
   <body>
     <header class="page-header" role="banner">
+      <FORM>
+        <INPUT TYPE="Button" VALUE="Previous Page" onClick="history.go(-1)">
+      </FORM>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <a href="https://github.com/MacarofTv" class="btn">My GitHub</a>
