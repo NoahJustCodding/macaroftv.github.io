@@ -23,14 +23,13 @@
   </head>
   <body>
     <header class="page-header" role="banner">
-      <FORM>
-        <INPUT TYPE="Button" VALUE="Previous Page" onClick="history.go(-1)">
-      </FORM>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <a href="https://github.com/MacarofTv" class="btn">My GitHub</a>
       <a href="https://discordapp.com/users/228100207965896707" class="btn">My Discord</a>
       <a href="https://www.linkedin.com/in/noah-louis-747098229/" class="btn">My LinkedIn</a>
+      <br>
+      <a href="javascript:history.back(1)">Previous Page</a>
     </header>
     <div class="progressionbar">
       <div class="progress-container">
