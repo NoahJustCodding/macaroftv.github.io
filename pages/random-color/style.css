@@ -47,10 +47,6 @@ a {
 	top: 40px;
 }
 
-p {
-	text-align: justify;
-}
-
 /* Animation Layer */
 body,
 button#change {
@@ -117,4 +113,9 @@ button#change {
 	text-align: center;
 	color: #fff;
 	border: 1px solid #7a18ec;
+}
+
+p {
+	text-align: justify;
+	text-justify: auto;
 }
