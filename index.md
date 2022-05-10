@@ -8,6 +8,6 @@ layout: new_index
 ### [❌ Windows Server](pages/memento-windowsServer.md)
 
 # Web
-### [✔️ Random Color](pages%5Crandom-color%5Cindex.html)
+### [✔️ Random Color](pages/random-color/)
 
 # Application
