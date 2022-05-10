@@ -10,7 +10,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	color: #fff;
 	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-	text-align: justify;
+	text-align: center;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -115,7 +115,7 @@ button#change {
 	border: 1px solid #7a18ec;
 }
 
-p {
+.paragraph {
 	text-align: justify;
 	text-justify: auto;
 }
