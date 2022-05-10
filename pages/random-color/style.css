@@ -47,6 +47,10 @@ a {
 	top: 40px;
 }
 
+p {
+	text-align: justify;
+}
+
 /* Animation Layer */
 body,
 button#change {
